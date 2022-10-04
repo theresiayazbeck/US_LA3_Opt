@@ -1,0 +1,20 @@
+INFO 2022-09-11 14:52:11,856 - Start time: 20220911T145211
+WARNING 2022-09-11 14:52:21,771 - Exception encountered in fetch_trial_data. Traceback: Traceback (most recent call last):
+  File "/global/cscratch1/sd/yazbeck/boa/boa/metaclasses.py", line 19, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/boa/boa/wrapper_utils.py", line 52, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/elm_wrapper.py", line 426, in fetch_trial_data
+    y_pred, y_true = get_model_obs(
+  File "/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/elm_wrapper.py", line 282, in get_model_obs
+    modeldf = modeldf.resample('M').apply(np.mean)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/frame.py", line 10547, in resample
+    return super().resample(
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/generic.py", line 8308, in resample
+    return get_resampler(
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/resample.py", line 1423, in get_resampler
+    return tg._get_resampler(obj, kind=kind)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/resample.py", line 1599, in _get_resampler
+    raise TypeError(
+TypeError: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'Int64Index'
+

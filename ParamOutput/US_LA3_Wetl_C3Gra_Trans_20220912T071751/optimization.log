@@ -1,0 +1,16 @@
+INFO 2022-09-12 07:17:51,717 - Start time: 20220912T071751
+WARNING 2022-09-12 07:17:58,318 - Exception encountered in fetch_trial_data. Traceback: Traceback (most recent call last):
+  File "/global/cscratch1/sd/yazbeck/boa/boa/metaclasses.py", line 19, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/boa/boa/wrapper_utils.py", line 52, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/elm_wrapper.py", line 432, in fetch_trial_data
+    y_pred, y_true = get_model_obs(
+  File "/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/elm_wrapper.py", line 268, in get_model_obs
+    AllModelVar = np.append(AllModelVar,modelVar,1)
+  File "<__array_function__ internals>", line 180, in append
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/numpy/lib/function_base.py", line 5444, in append
+    return concatenate((arr, values), axis=axis)
+  File "<__array_function__ internals>", line 180, in concatenate
+ValueError: zero-dimensional arrays cannot be concatenated
+

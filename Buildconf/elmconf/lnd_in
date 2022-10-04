@@ -1,0 +1,95 @@
+&elm_inparm
+ albice = 0.60,0.40
+ co2_type = 'diagnostic'
+ create_crop_landunit = .false.
+ do_budgets = .false.
+ dtime = 3600
+ fatmlndfrc = '/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data//domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc'
+ finidat = '/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/ParamInput/US_LA3_Wetl_C3Gra_Trans.elm.r.2020-01-01-00000.nc'
+ fsnowaging = '/global/cfs/cdirs/e3sm/inputdata/lnd/clm2/snicardata/snicar_drdt_bst_fit_60_c070416.nc'
+ fsnowoptics = '/global/cfs/cdirs/e3sm/inputdata/lnd/clm2/snicardata/snicar_optics_5bnd_mam_c160322.nc'
+ fsoilordercon = '/global/cfs/cdirs/e3sm/inputdata/lnd/clm2/paramdata/CNP_parameters_c180312.nc'
+ fsurdat = '/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/surfdata_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc'
+ hist_mfilt = 24
+ hist_nhtfrq = -1
+ maxpatch_glcmec = 0
+ maxpatch_pft = 17
+ more_vertlayers = .false.
+ nfix_ptase_plant = .true.
+ nsegspc = 20
+ nu_com = 'ECA'
+ paramfile = '/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/ParamInput/clm_params.cbgc.c07292018.nc'
+ spinup_state = 0
+ suplnitro = 'NONE'
+ suplphos = 'NONE'
+ urban_hac = 'ON'
+ urban_traffic = .false.
+ use_century_decomp = .true.
+ use_cn = .true.
+ use_crop = .false.
+ use_dynroot = .false.
+ use_fates = .false.
+ use_lch4 = .true.
+ use_snicar_ad = .true.
+ use_vertsoilc = .true.
+/
+&ndepdyn_nml
+ model_year_align_ndep = 1850
+ ndepmapalgo = 'nn'
+ stream_fldfilename_ndep = '/global/cfs/cdirs/e3sm/inputdata/lnd/clm2/ndepdata/fndep_clm_hist_simyr1849-2006_1.9x2.5_c100428.nc'
+ stream_year_first_ndep = 1850
+ stream_year_last_ndep = 2005
+/
+&pdepdyn_nml
+ model_year_align_pdep = 2000
+ pdepmapalgo = 'nn'
+ stream_fldfilename_pdep = '/global/cfs/cdirs/e3sm/inputdata/lnd/clm2/pdepdata/fpdep_clm_hist_simyr2000_1.9x2.5_c150929.nc'
+ stream_year_first_pdep = 2000
+ stream_year_last_pdep = 2000
+/
+&popd_streams
+ model_year_align_popdens = 1850
+ popdensmapalgo = 'nn'
+ stream_fldfilename_popdens = '/global/cfs/cdirs/e3sm/inputdata/lnd/clm2/firedata/clmforc.Li_2012_hdm_0.5x0.5_AVHRR_simyr1850-2010_c130401.nc'
+ stream_year_first_popdens = 1850
+ stream_year_last_popdens = 2010
+/
+&light_streams
+ lightngmapalgo = 'nn'
+ stream_fldfilename_lightng = '/global/cfs/cdirs/e3sm/inputdata/atm/datm7/NASA_LIS/clmforc.Li_2012_climo1995-2011.T62.lnfm_Total_c140423.nc'
+ stream_year_first_lightng = 0001
+ stream_year_last_lightng = 0001
+/
+&lai_streams
+/
+&elm_canopyhydrology_inparm
+/
+&elm_soilhydrology_inparm
+/
+&dynamic_subgrid
+ flanduse_timeseries = ''
+/
+&finidat_consistency_checks
+/
+&dynpft_consistency_checks
+/
+&elmu_inparm
+/
+&elm_soilstate_inparm
+/
+&elm_pflotran_inparm
+/
+&betr_inparm
+/
+&ch4par_in
+ fin_use_fsat = .true.
+ use_aereoxid_prog = .true.
+/
+&elm_humanindex_inparm
+/
+!#--------------------------------------------------------------------------------------------------------------------------
+!# lnd_in:: Comment:
+!# This namelist was created using the following command-line:
+!#     /global/u1/y/yazbeck/E3SM_code/components/elm/bld/CLM build-namelist -infile /global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/Buildconf/elmconf/namelist -csmdata /global/cfs/cdirs/e3sm/inputdata -inputdata /global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/Buildconf/elm.input_data_list -ignore_ic_year -namelist  &elm_inparm  start_ymd=20120101  / -use_case 20thC_transient -res 1x1_brazil -clm_start_type default -envxml_dir /global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans -l_ncpl 24 -lnd_frac /global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data//domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc -glc_nec 0 -co2_ppmv 367.0 -co2_type diagnostic -ncpl_base_period day -config /global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/Buildconf/elmconf/config_cache.xml -bgc bgc -nutrient cnp -nutrient_comp_pathway eca -soil_decomp century
+!# For help on options use: /global/u1/y/yazbeck/E3SM_code/components/elm/bld/CLM build-namelist -help
+!#--------------------------------------------------------------------------------------------------------------------------

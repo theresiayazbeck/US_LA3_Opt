@@ -1,0 +1,8 @@
+hist_mfilt = 24
+hist_nhtfrq = -1
+suplphos = 'NONE'
+do_budgets = .false.
+flanduse_timeseries = ''
+fsurdat = '/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/surfdata_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc'
+finidat = '/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/ParamInput/US_LA3_Wetl_C3Gra_Trans.elm.r.2020-01-01-00000.nc'
+paramfile = '/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/ParamInput/clm_params.cbgc.c07292018.nc'

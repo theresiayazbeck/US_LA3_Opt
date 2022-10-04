@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<file id="stream" version="1.0">
+<dataSource>
+   GENERIC
+</dataSource>
+<domainInfo>
+  <variableNames>
+     time    time
+        xc      lon
+        yc      lat
+        area    area
+        mask    mask
+  </variableNames>
+  <filePath>
+     /global/cfs/cdirs/e3sm/inputdata/atm/datm7/atm_forcing.datm7.GSWP3.0.5d.v1.c170516
+  </filePath>
+  <fileNames>
+     domain.lnd.360x720_gswp3.0v1.c170606.nc
+  </fileNames>
+</domainInfo>
+<fieldInfo>
+   <variableNames>
+     TBOT     tbot
+        WIND     wind
+        QBOT     shum
+        PSRF     pbot
+        FLDS     lwdn
+   </variableNames>
+   <filePath>
+     /global/cfs/cdirs/e3sm/inputdata/atm/datm7/atm_forcing.datm7.GSWP3.0.5d.v1.c170516/TPHWL
+   </filePath>
+   <fileNames>
+    clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1901-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1901-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1901-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1901-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1901-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1901-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1901-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1901-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1901-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1901-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1901-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1901-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1902-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1902-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1902-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1902-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1902-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1902-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1902-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1902-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1902-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1902-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1902-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1902-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1903-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1903-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1903-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1903-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1903-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1903-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1903-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1903-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1903-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1903-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1903-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1903-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1904-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1904-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1904-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1904-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1904-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1904-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1904-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1904-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1904-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1904-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1904-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1904-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1905-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1905-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1905-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1905-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1905-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1905-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1905-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1905-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1905-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1905-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1905-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1905-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1906-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1906-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1906-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1906-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1906-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1906-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1906-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1906-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1906-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1906-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1906-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1906-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1907-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1907-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1907-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1907-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1907-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1907-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1907-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1907-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1907-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1907-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1907-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1907-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1908-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1908-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1908-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1908-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1908-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1908-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1908-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1908-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1908-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1908-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1908-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1908-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1909-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1909-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1909-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1909-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1909-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1909-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1909-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1909-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1909-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1909-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1909-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1909-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1910-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1910-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1910-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1910-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1910-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1910-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1910-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1910-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1910-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1910-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1910-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1910-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1911-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1911-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1911-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1911-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1911-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1911-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1911-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1911-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1911-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1911-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1911-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1911-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1912-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1912-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1912-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1912-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1912-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1912-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1912-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1912-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1912-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1912-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1912-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1912-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1913-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1913-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1913-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1913-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1913-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1913-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1913-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1913-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1913-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1913-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1913-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1913-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1914-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1914-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1914-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1914-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1914-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1914-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1914-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1914-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1914-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1914-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1914-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1914-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1915-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1915-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1915-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1915-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1915-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1915-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1915-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1915-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1915-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1915-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1915-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1915-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1916-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1916-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1916-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1916-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1916-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1916-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1916-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1916-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1916-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1916-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1916-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1916-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1917-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1917-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1917-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1917-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1917-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1917-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1917-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1917-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1917-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1917-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1917-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1917-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1918-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1918-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1918-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1918-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1918-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1918-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1918-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1918-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1918-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1918-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1918-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1918-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1919-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1919-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1919-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1919-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1919-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1919-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1919-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1919-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1919-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1919-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1919-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1919-12.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1920-01.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1920-02.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1920-03.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1920-04.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1920-05.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1920-06.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1920-07.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1920-08.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1920-09.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1920-10.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1920-11.nc
+clmforc.GSWP3.c2011.0.5x0.5.TPQWL.1920-12.nc
+   </fileNames>
+   <offset>
+      0
+   </offset>
+</fieldInfo>
+</file>

@@ -1,0 +1,50 @@
+2022-09-02 08:59:42: ./create_newcase -case /global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans -compset I20TRGSWCNPECACNTBC -mach cori-knl -compiler intel -project m2467 -res 1x1_brazil
+ ---------------------------------------------------
+2022-09-02 08:59:42: Compset longname is 20TR_DATM%GSWP3v1_ELM%CNPECACNTBC_SICE_SOCN_MOSART_SGLC_SWAV_SIAC_SESP
+ ---------------------------------------------------
+2022-09-02 08:59:42: Compset specification file is /global/u1/y/yazbeck/E3SM_code/components/elm//cime_config/config_compsets.xml
+ ---------------------------------------------------
+2022-09-02 08:59:42: Pes     specification file is /global/u1/y/yazbeck/E3SM_code/cime_config/allactive/config_pesall.xml
+ ---------------------------------------------------
+2022-09-02 08:59:42: Forcing is 
+ ---------------------------------------------------
+2022-09-02 08:59:42: Component CPL is Historical 1850 to 2000 transient:
+ ---------------------------------------------------
+2022-09-02 08:59:42: Using None coupler instances
+ ---------------------------------------------------
+2022-09-02 08:59:42: Component ATM is  Data driven ATM  GSWP3v1 data set 
+ ---------------------------------------------------
+2022-09-02 08:59:42: ATM_GRID is 1x1_brazil
+ ---------------------------------------------------
+2022-09-02 08:59:42: Component LND is clm4.5 physics:clm4.5 cn:
+ ---------------------------------------------------
+2022-09-02 08:59:42: LND_GRID is 1x1_brazil
+ ---------------------------------------------------
+2022-09-02 08:59:42: Component ICE is Stub ice component
+ ---------------------------------------------------
+2022-09-02 08:59:42: ICE_GRID is null
+ ---------------------------------------------------
+2022-09-02 08:59:42: Component OCN is Stub ocn component
+ ---------------------------------------------------
+2022-09-02 08:59:42: OCN_GRID is null
+ ---------------------------------------------------
+2022-09-02 08:59:42: Component ROF is MOSART:
+ ---------------------------------------------------
+2022-09-02 08:59:42: ROF_GRID is null
+ ---------------------------------------------------
+2022-09-02 08:59:42: Component GLC is Stub glacier (land ice) component
+ ---------------------------------------------------
+2022-09-02 08:59:42: GLC_GRID is null
+ ---------------------------------------------------
+2022-09-02 08:59:42: Component WAV is Stub wave component
+ ---------------------------------------------------
+2022-09-02 08:59:42: WAV_GRID is null
+ ---------------------------------------------------
+2022-09-02 08:59:42: Component IAC is Stub iac component
+ ---------------------------------------------------
+2022-09-02 08:59:42: IAC_GRID is null
+ ---------------------------------------------------
+2022-09-02 08:59:42: Component ESP is Stub external system processing (ESP) component
+ ---------------------------------------------------
+2022-09-02 08:59:42: ESP_GRID is None
+ ---------------------------------------------------

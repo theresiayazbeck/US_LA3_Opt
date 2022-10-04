@@ -1,0 +1,12 @@
+INFO 2022-09-11 15:46:40,476 - Start time: 20220911T154640
+WARNING 2022-09-11 15:46:48,383 - Exception encountered in fetch_trial_data. Traceback: Traceback (most recent call last):
+  File "/global/cscratch1/sd/yazbeck/boa/boa/metaclasses.py", line 19, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/boa/boa/wrapper_utils.py", line 52, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/elm_wrapper.py", line 431, in fetch_trial_data
+    y_pred, y_true = get_model_obs(
+  File "/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/elm_wrapper.py", line 268, in get_model_obs
+    AllModelVar[:,v+1] = modelVar
+ValueError: could not broadcast input array from shape (8016,1) into shape (8016,)
+

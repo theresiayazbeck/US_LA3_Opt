@@ -1,0 +1,8 @@
+model_options:
+  create_case_dir: /global/u1/y/yazbeck/E3SM_code/cime/scripts/
+  run_dir: /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/
+  working_dir: /global/cscratch1/sd/yazbeck/
+parameters:
+  vcmax_np1: 3.401562811219353
+  vcmax_np2: 1.5
+  vcmax_np3: 0.31142788181162373

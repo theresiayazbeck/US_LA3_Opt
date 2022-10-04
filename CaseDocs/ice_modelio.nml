@@ -1,0 +1,13 @@
+&modelio
+  diri = "/global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/US_LA3_Wetl_C3Gra_Trans/bld/ice"
+  diro = "/global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/US_LA3_Wetl_C3Gra_Trans/run"
+  logfile = "ice.log.63205180.220930-154637"
+/
+&pio_inparm
+  pio_netcdf_format = "64bit_offset"
+  pio_numiotasks = -99
+  pio_rearranger = 1
+  pio_root = 0
+  pio_stride = 1
+  pio_typename = "pnetcdf"
+/

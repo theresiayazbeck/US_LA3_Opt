@@ -1,0 +1,14 @@
+INFO 2022-09-13 07:47:17,434 - Start time: 20220913T074717
+WARNING 2022-09-14 03:57:11,747 - Exception encountered in fetch_trial_data. Traceback: Traceback (most recent call last):
+  File "/global/cscratch1/sd/yazbeck/boa/boa/metaclasses.py", line 19, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/boa/boa/wrapper_utils.py", line 52, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/elm_wrapper.py", line 439, in fetch_trial_data
+    y_pred, y_true = get_model_obs(
+  File "/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/elm_wrapper.py", line 261, in get_model_obs
+    CurDaydf = nc.Dataset(model_nc_filename)
+  File "src/netCDF4/_netCDF4.pyx", line 2353, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 1963, in netCDF4._netCDF4._ensure_nc_success
+OSError: [Errno -51] NetCDF: Unknown file format: b'/global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/US_LA3_Wetl_C3Gra_Trans_opt_59/run/US_LA3_Wetl_C3Gra_Trans_opt_59.elm.h0.2012-03-03-00000.nc'
+

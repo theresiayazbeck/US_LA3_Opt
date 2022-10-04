@@ -1,0 +1,1222 @@
+2022-09-03 07:12:44: xmlchange success <command> ./xmlchange -file env_run.xml -id ELM_BLDNML_OPTS -val -bgc bgc -nutrient cnp -nutrient_comp_pathway eca -soil_decomp century  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:45: xmlchange success <command> ./xmlchange --id ATM_NCPL --val 24  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:45: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:46: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:46: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:47: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:48: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:48: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:49: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:49: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:50: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:51: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:51: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:52: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:52: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:53: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:53: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:54: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:55: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:55: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:56: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_TASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:56: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_MPITASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:57: xmlchange success <command> ./xmlchange -file env_run.xml -id RUN_STARTDATE -val 2012-01-01  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:58: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_MODE -val CLMGSWP3v1  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:58: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_ALIGN -val 1901  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:59: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_START -val 1901  </command>
+ ---------------------------------------------------
+2022-09-03 07:12:59: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_END -val 1920  </command>
+ ---------------------------------------------------
+2022-09-03 07:13:00: xmlchange success <command> ./xmlchange -file env_run.xml -id ATM_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-03 07:13:01: xmlchange success <command> ./xmlchange -file env_run.xml -id LND_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-03 07:13:01: xmlchange success <command> ./xmlchange -file env_run.xml ATM_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-03 07:13:02: xmlchange success <command> ./xmlchange -file env_run.xml LND_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-03 07:13:02: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_OPTION -val nyears  </command>
+ ---------------------------------------------------
+2022-09-03 07:13:03: xmlchange success <command> ./xmlchange -file env_run.xml -id REST_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:13:04: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-03 07:13:04: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_QUEUE=regular  </command>
+ ---------------------------------------------------
+2022-09-03 07:13:05: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_WALLCLOCK_TIME=02:00:00  </command>
+ ---------------------------------------------------
+2022-09-03 07:13:12: case.setup starting 
+ ---------------------------------------------------
+2022-09-03 07:13:20: case.setup success 
+ ---------------------------------------------------
+2022-09-03 07:13:30: build.clean starting 
+ ---------------------------------------------------
+2022-09-03 07:13:36: build.clean success 
+ ---------------------------------------------------
+2022-09-03 07:13:42: case.build starting 
+ ---------------------------------------------------
+2022-09-03 07:23:27: case.build success 
+ ---------------------------------------------------
+2022-09-03 07:24:05: case.submit starting 62472363
+ ---------------------------------------------------
+2022-09-03 07:24:05: case.submit success 62472363
+ ---------------------------------------------------
+2022-09-03 07:33:59: case.run starting 62472363
+ ---------------------------------------------------
+2022-09-03 07:34:51: model execution starting 62472363
+ ---------------------------------------------------
+2022-09-03 08:19:01: model execution success 62472363
+ ---------------------------------------------------
+2022-09-03 08:19:01: case.run success 62472363
+ ---------------------------------------------------
+2022-09-03 09:54:04: case.setup starting 
+ ---------------------------------------------------
+2022-09-03 09:54:11: case.setup success 
+ ---------------------------------------------------
+2022-09-03 09:54:25: build.clean starting 
+ ---------------------------------------------------
+2022-09-03 09:54:31: build.clean success 
+ ---------------------------------------------------
+2022-09-03 09:54:35: case.build starting 
+ ---------------------------------------------------
+2022-09-03 10:01:09: case.build success 
+ ---------------------------------------------------
+2022-09-03 10:03:21: case.submit starting 62476502
+ ---------------------------------------------------
+2022-09-03 10:03:21: case.submit success 62476502
+ ---------------------------------------------------
+2022-09-03 10:17:07: case.run starting 62476502
+ ---------------------------------------------------
+2022-09-03 10:17:48: model execution starting 62476502
+ ---------------------------------------------------
+2022-09-03 11:00:41: model execution success 62476502
+ ---------------------------------------------------
+2022-09-03 11:00:41: case.run success 62476502
+ ---------------------------------------------------
+2022-09-05 09:50:25: xmlchange success <command> ./xmlchange -file env_run.xml -id ELM_BLDNML_OPTS -val -bgc bgc -nutrient cnp -nutrient_comp_pathway eca -soil_decomp century  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:26: xmlchange success <command> ./xmlchange --id ATM_NCPL --val 24  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:26: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:27: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:28: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:28: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:29: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:29: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:30: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:30: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:31: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:32: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:32: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:33: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:33: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:34: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:34: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:35: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:36: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:36: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:37: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_TASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:37: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_MPITASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:38: xmlchange success <command> ./xmlchange -file env_run.xml -id RUN_STARTDATE -val 2012-01-01  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:38: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_MODE -val CLMGSWP3v1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:39: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_ALIGN -val 1901  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:40: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_START -val 1901  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:40: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_END -val 1920  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:41: xmlchange success <command> ./xmlchange -file env_run.xml -id ATM_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:41: xmlchange success <command> ./xmlchange -file env_run.xml -id LND_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:42: xmlchange success <command> ./xmlchange -file env_run.xml ATM_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:42: xmlchange success <command> ./xmlchange -file env_run.xml LND_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:43: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_OPTION -val nyears  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:44: xmlchange success <command> ./xmlchange -file env_run.xml -id REST_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:44: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:45: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_QUEUE=regular  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:46: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_WALLCLOCK_TIME=00:10:00  </command>
+ ---------------------------------------------------
+2022-09-05 09:50:55: case.setup starting 
+ ---------------------------------------------------
+2022-09-05 09:51:02: case.setup success 
+ ---------------------------------------------------
+2022-09-05 09:51:08: build.clean starting 
+ ---------------------------------------------------
+2022-09-05 09:51:15: build.clean success 
+ ---------------------------------------------------
+2022-09-05 09:51:22: case.build starting 
+ ---------------------------------------------------
+2022-09-05 09:58:18: case.build success 
+ ---------------------------------------------------
+2022-09-05 09:58:33: case.submit starting 62510815
+ ---------------------------------------------------
+2022-09-05 09:58:33: case.submit success 62510815
+ ---------------------------------------------------
+2022-09-05 10:01:01: case.run starting 62510815
+ ---------------------------------------------------
+2022-09-05 10:01:41: model execution starting 62510815
+ ---------------------------------------------------
+2022-09-05 10:13:45: case.submit starting 62511358
+ ---------------------------------------------------
+2022-09-05 10:13:45: case.submit success 62511358
+ ---------------------------------------------------
+2022-09-05 10:19:11: case.run starting 62511358
+ ---------------------------------------------------
+2022-09-05 10:19:52: model execution starting 62511358
+ ---------------------------------------------------
+2022-09-14 12:23:21: xmlchange success <command> ./xmlchange -file env_run.xml -id ELM_BLDNML_OPTS -val -bgc bgc -nutrient cnp -nutrient_comp_pathway eca -soil_decomp century  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:22: xmlchange success <command> ./xmlchange --id ATM_NCPL --val 24  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:22: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:23: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:24: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:25: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:25: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:26: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:27: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:27: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:28: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:29: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:29: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:30: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:31: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:31: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:32: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:33: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:33: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:34: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:35: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_TASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:35: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_MPITASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:36: xmlchange success <command> ./xmlchange -file env_run.xml -id RUN_STARTDATE -val 2012-01-01  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:37: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_MODE -val CLMGSWP3v1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:37: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_ALIGN -val 1901  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:38: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_START -val 1901  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:39: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_END -val 1920  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:39: xmlchange success <command> ./xmlchange -file env_run.xml -id ATM_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:40: xmlchange success <command> ./xmlchange -file env_run.xml -id LND_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:41: xmlchange success <command> ./xmlchange -file env_run.xml ATM_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:41: xmlchange success <command> ./xmlchange -file env_run.xml LND_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:42: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_OPTION -val nyears  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:43: xmlchange success <command> ./xmlchange -file env_run.xml -id REST_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:44: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:44: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_QUEUE=regular  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:45: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_WALLCLOCK_TIME=00:10:00  </command>
+ ---------------------------------------------------
+2022-09-14 12:23:55: case.setup starting 
+ ---------------------------------------------------
+2022-09-14 12:24:04: case.setup success 
+ ---------------------------------------------------
+2022-09-14 12:24:19: build.clean starting 
+ ---------------------------------------------------
+2022-09-14 12:24:26: build.clean success 
+ ---------------------------------------------------
+2022-09-14 12:24:32: case.build starting 
+ ---------------------------------------------------
+2022-09-14 12:32:18: case.build success 
+ ---------------------------------------------------
+2022-09-14 12:32:51: case.submit starting 62799048
+ ---------------------------------------------------
+2022-09-14 12:32:51: case.submit success 62799048
+ ---------------------------------------------------
+2022-09-14 12:42:38: case.run starting 62799048
+ ---------------------------------------------------
+2022-09-14 12:43:26: model execution starting 62799048
+ ---------------------------------------------------
+2022-09-14 13:00:35: xmlchange success <command> ./xmlchange -file env_run.xml -id ELM_BLDNML_OPTS -val -bgc bgc -nutrient cnp -nutrient_comp_pathway eca -soil_decomp century  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:36: xmlchange success <command> ./xmlchange --id ATM_NCPL --val 24  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:36: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:37: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:38: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:38: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:39: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:40: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:40: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:41: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:42: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:42: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:43: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:44: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:44: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:45: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:46: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:46: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:47: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:48: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:48: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_TASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:49: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_MPITASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:50: xmlchange success <command> ./xmlchange -file env_run.xml -id RUN_STARTDATE -val 2012-01-01  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:50: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_MODE -val CLMGSWP3v1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:51: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_ALIGN -val 1901  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:51: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_START -val 1901  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:52: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_END -val 1920  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:53: xmlchange success <command> ./xmlchange -file env_run.xml -id ATM_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:53: xmlchange success <command> ./xmlchange -file env_run.xml -id LND_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:54: xmlchange success <command> ./xmlchange -file env_run.xml ATM_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:55: xmlchange success <command> ./xmlchange -file env_run.xml LND_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:55: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_OPTION -val nyears  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:56: xmlchange success <command> ./xmlchange -file env_run.xml -id REST_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:57: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:57: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_QUEUE=regular  </command>
+ ---------------------------------------------------
+2022-09-14 13:00:58: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_WALLCLOCK_TIME=00:10:00  </command>
+ ---------------------------------------------------
+2022-09-14 13:01:10: case.submit starting 62799594
+ ---------------------------------------------------
+2022-09-14 13:01:11: case.submit success 62799594
+ ---------------------------------------------------
+2022-09-14 13:05:11: case.run starting 62799594
+ ---------------------------------------------------
+2022-09-14 13:05:57: model execution starting 62799594
+ ---------------------------------------------------
+2022-09-14 14:18:08: xmlchange success <command> ./xmlchange -file env_run.xml -id ELM_BLDNML_OPTS -val -bgc bgc -nutrient cnp -nutrient_comp_pathway eca -soil_decomp century  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:08: xmlchange success <command> ./xmlchange --id ATM_NCPL --val 24  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:09: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:09: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:10: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:11: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:11: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:12: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:13: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:13: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:14: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:14: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:15: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:16: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:16: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:17: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:17: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:18: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:19: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:19: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:20: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_TASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:21: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_MPITASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:21: xmlchange success <command> ./xmlchange -file env_run.xml -id RUN_STARTDATE -val 2012-01-01  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:22: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_MODE -val CLMGSWP3v1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:22: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_ALIGN -val 1901  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:23: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_START -val 1901  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:24: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_END -val 1920  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:24: xmlchange success <command> ./xmlchange -file env_run.xml -id ATM_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:25: xmlchange success <command> ./xmlchange -file env_run.xml -id LND_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:25: xmlchange success <command> ./xmlchange -file env_run.xml ATM_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:26: xmlchange success <command> ./xmlchange -file env_run.xml LND_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:28: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_OPTION -val nyears  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:28: xmlchange success <command> ./xmlchange -file env_run.xml -id REST_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:29: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:29: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_QUEUE=regular  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:30: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_WALLCLOCK_TIME=00:10:00  </command>
+ ---------------------------------------------------
+2022-09-14 14:18:51: case.setup starting 
+ ---------------------------------------------------
+2022-09-14 14:18:59: case.setup success 
+ ---------------------------------------------------
+2022-09-14 14:19:08: build.clean starting 
+ ---------------------------------------------------
+2022-09-14 14:19:14: build.clean success 
+ ---------------------------------------------------
+2022-09-14 14:19:18: case.build starting 
+ ---------------------------------------------------
+2022-09-14 14:26:31: case.build success 
+ ---------------------------------------------------
+2022-09-14 14:27:46: case.submit starting 62802070
+ ---------------------------------------------------
+2022-09-14 14:27:46: case.submit success 62802070
+ ---------------------------------------------------
+2022-09-14 14:47:50: case.run starting 62802070
+ ---------------------------------------------------
+2022-09-14 14:48:34: model execution starting 62802070
+ ---------------------------------------------------
+2022-09-14 15:04:27: xmlchange success <command> ./xmlchange -file env_run.xml -id ELM_BLDNML_OPTS -val -bgc bgc -nutrient cnp -nutrient_comp_pathway eca -soil_decomp century  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:29: xmlchange success <command> ./xmlchange --id ATM_NCPL --val 24  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:29: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:30: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:31: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:31: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:32: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:33: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:34: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:34: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:35: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:36: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:36: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:37: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:38: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:38: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:39: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:40: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:41: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:41: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:42: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_TASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:43: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_MPITASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:43: xmlchange success <command> ./xmlchange -file env_run.xml -id RUN_STARTDATE -val 2012-01-01  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:44: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_MODE -val CLMGSWP3v1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:45: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_ALIGN -val 1901  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:45: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_START -val 1901  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:46: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_END -val 1920  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:47: xmlchange success <command> ./xmlchange -file env_run.xml -id ATM_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:47: xmlchange success <command> ./xmlchange -file env_run.xml -id LND_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:48: xmlchange success <command> ./xmlchange -file env_run.xml ATM_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:49: xmlchange success <command> ./xmlchange -file env_run.xml LND_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:50: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_OPTION -val nyears  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:50: xmlchange success <command> ./xmlchange -file env_run.xml -id REST_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:51: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:52: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_QUEUE=regular  </command>
+ ---------------------------------------------------
+2022-09-14 15:04:52: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_WALLCLOCK_TIME=00:10:00  </command>
+ ---------------------------------------------------
+2022-09-14 15:05:05: case.submit starting 62803505
+ ---------------------------------------------------
+2022-09-14 15:05:05: case.submit success 62803505
+ ---------------------------------------------------
+2022-09-14 15:08:58: case.run starting 62803505
+ ---------------------------------------------------
+2022-09-14 15:09:41: model execution starting 62803505
+ ---------------------------------------------------
+2022-09-17 07:56:26: xmlchange success <command> ./xmlchange -file env_run.xml -id ELM_BLDNML_OPTS -val -bgc bgc -nutrient cnp -nutrient_comp_pathway eca -soil_decomp century  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:27: xmlchange success <command> ./xmlchange --id ATM_NCPL --val 24  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:27: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:28: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:28: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:29: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:30: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:30: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:31: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:31: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:32: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:32: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:33: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:34: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:34: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:35: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:35: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:36: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:37: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:37: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:38: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_TASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:38: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_MPITASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:39: xmlchange success <command> ./xmlchange -file env_run.xml -id RUN_STARTDATE -val 2012-01-01  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:39: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_MODE -val CLMGSWP3v1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:40: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_ALIGN -val 1901  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:40: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_START -val 1901  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:41: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_END -val 1920  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:42: xmlchange success <command> ./xmlchange -file env_run.xml -id ATM_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:42: xmlchange success <command> ./xmlchange -file env_run.xml -id LND_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:43: xmlchange success <command> ./xmlchange -file env_run.xml ATM_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:43: xmlchange success <command> ./xmlchange -file env_run.xml LND_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:44: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_OPTION -val nyears  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:45: xmlchange success <command> ./xmlchange -file env_run.xml -id REST_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:45: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:46: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_QUEUE=regular  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:46: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_WALLCLOCK_TIME=00:10:00  </command>
+ ---------------------------------------------------
+2022-09-17 07:56:54: case.setup starting 
+ ---------------------------------------------------
+2022-09-17 07:57:01: case.setup success 
+ ---------------------------------------------------
+2022-09-17 07:57:09: build.clean starting 
+ ---------------------------------------------------
+2022-09-17 07:57:15: build.clean success 
+ ---------------------------------------------------
+2022-09-17 07:57:20: case.build starting 
+ ---------------------------------------------------
+2022-09-17 08:02:55: case.build error 
+ERROR: BUILD FAIL: build e3sm failed, cat /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/US_LA3_Wetl_C3Gra_Trans/bld/e3sm.bldlog.220917-075720
+ ---------------------------------------------------
+2022-09-17 08:04:47: build.clean starting 
+ ---------------------------------------------------
+2022-09-17 08:04:50: build.clean success 
+ ---------------------------------------------------
+2022-09-17 08:04:53: case.build starting 
+ ---------------------------------------------------
+2022-09-17 08:11:02: case.build success 
+ ---------------------------------------------------
+2022-09-17 08:14:39: case.submit starting 62853625
+ ---------------------------------------------------
+2022-09-17 08:14:39: case.submit success 62853625
+ ---------------------------------------------------
+2022-09-17 08:17:13: case.run starting 62853625
+ ---------------------------------------------------
+2022-09-17 08:17:55: model execution starting 62853625
+ ---------------------------------------------------
+2022-09-17 08:30:01: build.clean starting 
+ ---------------------------------------------------
+2022-09-17 08:30:05: build.clean success 
+ ---------------------------------------------------
+2022-09-17 08:30:13: case.build starting 
+ ---------------------------------------------------
+2022-09-17 08:36:25: case.build success 
+ ---------------------------------------------------
+2022-09-17 08:36:46: case.submit starting 62853694
+ ---------------------------------------------------
+2022-09-17 08:36:46: case.submit success 62853694
+ ---------------------------------------------------
+2022-09-17 08:39:51: case.run starting 62853694
+ ---------------------------------------------------
+2022-09-17 08:40:31: model execution starting 62853694
+ ---------------------------------------------------
+2022-09-18 09:25:22: build.clean starting 
+ ---------------------------------------------------
+2022-09-18 09:25:28: build.clean success 
+ ---------------------------------------------------
+2022-09-18 09:25:32: case.build starting 
+ ---------------------------------------------------
+2022-09-18 09:32:01: case.build success 
+ ---------------------------------------------------
+2022-09-18 09:34:53: case.submit starting 62866706
+ ---------------------------------------------------
+2022-09-18 09:34:53: case.submit success 62866706
+ ---------------------------------------------------
+2022-09-18 09:36:58: case.run starting 62866706
+ ---------------------------------------------------
+2022-09-18 09:37:50: model execution starting 62866706
+ ---------------------------------------------------
+2022-09-18 10:45:25: build.clean starting 
+ ---------------------------------------------------
+2022-09-18 10:45:30: build.clean success 
+ ---------------------------------------------------
+2022-09-18 10:45:34: case.build starting 
+ ---------------------------------------------------
+2022-09-18 10:51:40: case.build success 
+ ---------------------------------------------------
+2022-09-18 10:53:28: case.submit starting 62867680
+ ---------------------------------------------------
+2022-09-18 10:53:28: case.submit success 62867680
+ ---------------------------------------------------
+2022-09-18 10:57:55: case.run starting 62867680
+ ---------------------------------------------------
+2022-09-18 10:59:38: model execution starting 62867680
+ ---------------------------------------------------
+2022-09-18 11:25:04: build.clean starting 
+ ---------------------------------------------------
+2022-09-18 11:25:07: build.clean success 
+ ---------------------------------------------------
+2022-09-18 11:25:11: case.build starting 
+ ---------------------------------------------------
+2022-09-18 11:31:20: case.build success 
+ ---------------------------------------------------
+2022-09-18 11:31:34: case.submit starting 62867906
+ ---------------------------------------------------
+2022-09-18 11:31:34: case.submit success 62867906
+ ---------------------------------------------------
+2022-09-18 11:32:57: case.run starting 62867906
+ ---------------------------------------------------
+2022-09-18 11:33:42: model execution starting 62867906
+ ---------------------------------------------------
+2022-09-18 11:46:57: build.clean starting 
+ ---------------------------------------------------
+2022-09-18 11:47:01: build.clean success 
+ ---------------------------------------------------
+2022-09-18 11:47:04: case.build starting 
+ ---------------------------------------------------
+2022-09-18 11:53:09: case.build success 
+ ---------------------------------------------------
+2022-09-18 11:53:55: case.submit starting 62867982
+ ---------------------------------------------------
+2022-09-18 11:53:55: case.submit success 62867982
+ ---------------------------------------------------
+2022-09-18 11:56:49: case.run starting 62867982
+ ---------------------------------------------------
+2022-09-18 11:57:34: model execution starting 62867982
+ ---------------------------------------------------
+2022-09-18 13:38:05: build.clean starting 
+ ---------------------------------------------------
+2022-09-18 13:38:10: build.clean success 
+ ---------------------------------------------------
+2022-09-18 13:38:14: case.build starting 
+ ---------------------------------------------------
+2022-09-18 13:44:32: case.build success 
+ ---------------------------------------------------
+2022-09-18 13:47:16: case.submit starting 62868614
+ ---------------------------------------------------
+2022-09-18 13:47:16: case.submit success 62868614
+ ---------------------------------------------------
+2022-09-18 13:50:21: case.run starting 62868614
+ ---------------------------------------------------
+2022-09-18 13:51:08: model execution starting 62868614
+ ---------------------------------------------------
+2022-09-18 15:45:19: build.clean starting 
+ ---------------------------------------------------
+2022-09-18 15:45:24: build.clean success 
+ ---------------------------------------------------
+2022-09-18 15:45:29: case.build starting 
+ ---------------------------------------------------
+2022-09-18 15:51:59: case.build success 
+ ---------------------------------------------------
+2022-09-18 15:55:31: case.submit starting 62870132
+ ---------------------------------------------------
+2022-09-18 15:55:31: case.submit success 62870132
+ ---------------------------------------------------
+2022-09-18 15:57:33: case.run starting 62870132
+ ---------------------------------------------------
+2022-09-18 15:58:16: model execution starting 62870132
+ ---------------------------------------------------
+2022-09-18 16:15:13: xmlchange success <command> ./xmlchange -file env_run.xml -id ELM_BLDNML_OPTS -val -bgc bgc -nutrient cnp -nutrient_comp_pathway eca -soil_decomp century  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:14: xmlchange success <command> ./xmlchange --id ATM_NCPL --val 24  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:14: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:15: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:15: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:16: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:16: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:17: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:18: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:18: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:19: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:19: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:20: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:21: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:21: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:22: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:22: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:23: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:23: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:24: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:24: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_TASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:25: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_MPITASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:26: xmlchange success <command> ./xmlchange -file env_run.xml -id RUN_STARTDATE -val 2012-01-01  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:26: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_MODE -val CLMGSWP3v1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:27: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_ALIGN -val 1901  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:27: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_START -val 1901  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:28: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_END -val 1920  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:28: xmlchange success <command> ./xmlchange -file env_run.xml -id ATM_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:29: xmlchange success <command> ./xmlchange -file env_run.xml -id LND_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:29: xmlchange success <command> ./xmlchange -file env_run.xml ATM_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:30: xmlchange success <command> ./xmlchange -file env_run.xml LND_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:30: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_OPTION -val nyears  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:31: xmlchange success <command> ./xmlchange -file env_run.xml -id REST_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:32: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:32: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_QUEUE=regular  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:33: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_WALLCLOCK_TIME=00:10:00  </command>
+ ---------------------------------------------------
+2022-09-18 16:15:42: case.submit starting 62870446
+ ---------------------------------------------------
+2022-09-18 16:15:42: case.submit success 62870446
+ ---------------------------------------------------
+2022-09-18 16:17:11: case.run starting 62870446
+ ---------------------------------------------------
+2022-09-18 16:18:04: model execution starting 62870446
+ ---------------------------------------------------
+2022-09-20 06:59:25: case.submit starting 62907906
+ ---------------------------------------------------
+2022-09-20 06:59:25: case.submit success 62907906
+ ---------------------------------------------------
+2022-09-20 12:54:25: case.submit starting 62913507
+ ---------------------------------------------------
+2022-09-20 12:54:25: case.submit success 62913507
+ ---------------------------------------------------
+2022-09-20 12:56:18: case.run starting 62913507
+ ---------------------------------------------------
+2022-09-20 12:57:04: model execution starting 62913507
+ ---------------------------------------------------
+2022-09-24 12:06:53: xmlchange success <command> ./xmlchange -file env_run.xml -id ELM_BLDNML_OPTS -val -bgc bgc -nutrient cnp -nutrient_comp_pathway eca -soil_decomp century  </command>
+ ---------------------------------------------------
+2022-09-24 12:06:54: xmlchange success <command> ./xmlchange --id ATM_NCPL --val 24  </command>
+ ---------------------------------------------------
+2022-09-24 12:06:54: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:06:55: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:06:55: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:06:56: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:06:57: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:06:57: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:06:58: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:06:58: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:06:59: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:06:59: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:00: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:01: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:01: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:02: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:02: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:03: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:03: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:04: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:05: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_TASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:05: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_MPITASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:06: xmlchange success <command> ./xmlchange -file env_run.xml -id RUN_STARTDATE -val 2012-01-01  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:06: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_MODE -val CLMGSWP3v1  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:07: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_ALIGN -val 1901  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:07: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_START -val 1901  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:08: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_END -val 1920  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:08: xmlchange success <command> ./xmlchange -file env_run.xml -id ATM_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:09: xmlchange success <command> ./xmlchange -file env_run.xml -id LND_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:09: xmlchange success <command> ./xmlchange -file env_run.xml ATM_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:10: xmlchange success <command> ./xmlchange -file env_run.xml LND_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:10: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_OPTION -val nyears  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:11: xmlchange success <command> ./xmlchange -file env_run.xml -id REST_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:12: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:12: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_QUEUE=regular  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:13: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_WALLCLOCK_TIME=00:10:00  </command>
+ ---------------------------------------------------
+2022-09-24 12:07:22: case.setup starting 
+ ---------------------------------------------------
+2022-09-24 12:07:29: case.setup success 
+ ---------------------------------------------------
+2022-09-24 12:07:38: build.clean starting 
+ ---------------------------------------------------
+2022-09-24 12:07:44: build.clean success 
+ ---------------------------------------------------
+2022-09-24 12:07:50: case.build starting 
+ ---------------------------------------------------
+2022-09-24 12:12:57: case.build error 
+ERROR: BUILD FAIL: build e3sm failed, cat /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/US_LA3_Wetl_C3Gra_Trans/bld/e3sm.bldlog.220924-120750
+ ---------------------------------------------------
+2022-09-24 12:14:30: build.clean starting 
+ ---------------------------------------------------
+2022-09-24 12:14:32: build.clean success 
+ ---------------------------------------------------
+2022-09-24 12:14:36: case.build starting 
+ ---------------------------------------------------
+2022-09-24 12:20:37: case.build success 
+ ---------------------------------------------------
+2022-09-24 12:22:58: case.submit starting 63014173
+ ---------------------------------------------------
+2022-09-24 12:22:58: case.submit success 63014173
+ ---------------------------------------------------
+2022-09-24 12:24:14: case.run starting 63014173
+ ---------------------------------------------------
+2022-09-24 12:24:58: model execution starting 63014173
+ ---------------------------------------------------
+2022-09-24 12:46:59: build.clean starting 
+ ---------------------------------------------------
+2022-09-24 12:47:02: build.clean success 
+ ---------------------------------------------------
+2022-09-24 12:47:06: case.build starting 
+ ---------------------------------------------------
+2022-09-24 12:52:55: case.build success 
+ ---------------------------------------------------
+2022-09-24 12:53:11: case.submit starting 63014741
+ ---------------------------------------------------
+2022-09-24 12:53:11: case.submit success 63014741
+ ---------------------------------------------------
+2022-09-24 12:55:24: case.run starting 63014741
+ ---------------------------------------------------
+2022-09-24 12:56:06: model execution starting 63014741
+ ---------------------------------------------------
+2022-09-24 13:05:21: build.clean starting 
+ ---------------------------------------------------
+2022-09-24 13:05:24: build.clean success 
+ ---------------------------------------------------
+2022-09-24 13:05:28: case.build starting 
+ ---------------------------------------------------
+2022-09-24 13:11:28: case.build success 
+ ---------------------------------------------------
+2022-09-24 13:11:44: case.submit starting 63014812
+ ---------------------------------------------------
+2022-09-24 13:11:44: case.submit success 63014812
+ ---------------------------------------------------
+2022-09-24 13:13:35: case.run starting 63014812
+ ---------------------------------------------------
+2022-09-24 13:14:25: model execution starting 63014812
+ ---------------------------------------------------
+2022-09-24 14:54:47: build.clean starting 
+ ---------------------------------------------------
+2022-09-24 14:54:52: build.clean success 
+ ---------------------------------------------------
+2022-09-24 14:54:59: case.build starting 
+ ---------------------------------------------------
+2022-09-24 15:00:55: case.build success 
+ ---------------------------------------------------
+2022-09-24 15:01:13: case.submit starting 63015776
+ ---------------------------------------------------
+2022-09-24 15:01:13: case.submit success 63015776
+ ---------------------------------------------------
+2022-09-24 15:08:16: case.run starting 63015776
+ ---------------------------------------------------
+2022-09-24 15:08:57: model execution starting 63015776
+ ---------------------------------------------------
+2022-09-26 13:29:39: build.clean starting 
+ ---------------------------------------------------
+2022-09-26 13:29:46: build.clean success 
+ ---------------------------------------------------
+2022-09-26 13:30:01: case.build starting 
+ ---------------------------------------------------
+2022-09-26 13:41:16: case.build success 
+ ---------------------------------------------------
+2022-09-26 13:41:54: case.submit starting 63052332
+ ---------------------------------------------------
+2022-09-26 13:41:54: case.submit success 63052332
+ ---------------------------------------------------
+2022-09-26 13:46:25: case.run starting 63052332
+ ---------------------------------------------------
+2022-09-26 13:47:08: model execution starting 63052332
+ ---------------------------------------------------
+2022-09-28 09:31:48: build.clean starting 
+ ---------------------------------------------------
+2022-09-28 09:31:55: build.clean success 
+ ---------------------------------------------------
+2022-09-28 09:31:58: case.build starting 
+ ---------------------------------------------------
+2022-09-28 09:38:22: case.build success 
+ ---------------------------------------------------
+2022-09-28 09:39:23: case.submit starting 63095886
+ ---------------------------------------------------
+2022-09-28 09:39:23: case.submit success 63095886
+ ---------------------------------------------------
+2022-09-28 09:41:57: case.run starting 63095886
+ ---------------------------------------------------
+2022-09-28 09:42:42: model execution starting 63095886
+ ---------------------------------------------------
+2022-09-30 12:26:09: build.clean starting 
+ ---------------------------------------------------
+2022-09-30 12:26:16: build.clean success 
+ ---------------------------------------------------
+2022-09-30 12:26:19: case.build starting 
+ ---------------------------------------------------
+2022-09-30 12:32:30: case.build success 
+ ---------------------------------------------------
+2022-09-30 12:51:55: xmlchange success <command> ./xmlchange -file env_run.xml -id ELM_BLDNML_OPTS -val -bgc bgc -nutrient cnp -nutrient_comp_pathway eca -soil_decomp century  </command>
+ ---------------------------------------------------
+2022-09-30 12:51:55: xmlchange success <command> ./xmlchange --id ATM_NCPL --val 24  </command>
+ ---------------------------------------------------
+2022-09-30 12:51:55: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:51:56: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:51:56: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:51:56: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:51:57: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:51:57: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:51:57: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:51:58: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:51:58: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:51:58: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:51:59: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:51:59: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:51:59: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:00: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:00: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:01: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:01: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:01: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:02: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_TASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:02: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_MPITASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:02: xmlchange success <command> ./xmlchange -file env_run.xml -id RUN_STARTDATE -val 2012-01-01  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:03: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_MODE -val CLMGSWP3v1  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:03: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_ALIGN -val 1901  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:03: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_START -val 1901  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:04: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_END -val 1920  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:04: xmlchange success <command> ./xmlchange -file env_run.xml -id ATM_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:04: xmlchange success <command> ./xmlchange -file env_run.xml -id LND_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:05: xmlchange success <command> ./xmlchange -file env_run.xml ATM_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:05: xmlchange success <command> ./xmlchange -file env_run.xml LND_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:05: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_OPTION -val nyears  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:06: xmlchange success <command> ./xmlchange -file env_run.xml -id REST_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:06: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:07: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_QUEUE=regular  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:07: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_WALLCLOCK_TIME=00:10:00  </command>
+ ---------------------------------------------------
+2022-09-30 12:52:27: case.submit starting 63204875
+ ---------------------------------------------------
+2022-09-30 12:52:27: case.submit success 63204875
+ ---------------------------------------------------
+2022-09-30 12:58:10: case.run starting 63204875
+ ---------------------------------------------------
+2022-09-30 12:58:42: model execution starting 63204875
+ ---------------------------------------------------
+2022-09-30 13:00:41: xmlchange success <command> ./xmlchange -file env_run.xml -id ELM_BLDNML_OPTS -val -bgc bgc -nutrient cnp -nutrient_comp_pathway eca -soil_decomp century  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:41: xmlchange success <command> ./xmlchange --id ATM_NCPL --val 24  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:41: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:42: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:42: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:42: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:43: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:43: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:43: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:44: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:44: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:44: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ATM -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:45: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_CPL -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:45: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_LND -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:45: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ICE -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:46: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_OCN -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:46: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_GLC -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:46: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ROF -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:47: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_WAV -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:47: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ESP -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:47: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_TASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:47: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_MPITASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:48: xmlchange success <command> ./xmlchange -file env_run.xml -id RUN_STARTDATE -val 2012-01-01  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:48: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_MODE -val CLMGSWP3v1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:48: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_ALIGN -val 1901  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:49: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_START -val 1901  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:49: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_END -val 1920  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:49: xmlchange success <command> ./xmlchange -file env_run.xml -id ATM_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:50: xmlchange success <command> ./xmlchange -file env_run.xml -id LND_DOMAIN_FILE -val domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:50: xmlchange success <command> ./xmlchange -file env_run.xml ATM_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:50: xmlchange success <command> ./xmlchange -file env_run.xml LND_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:51: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_OPTION -val nyears  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:51: xmlchange success <command> ./xmlchange -file env_run.xml -id REST_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:51: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_N -val 1  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:52: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_QUEUE=regular  </command>
+ ---------------------------------------------------
+2022-09-30 13:00:52: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_WALLCLOCK_TIME=02:00:00  </command>
+ ---------------------------------------------------
+2022-09-30 13:01:02: case.submit starting 63205180
+ ---------------------------------------------------
+2022-09-30 13:01:02: case.submit success 63205180
+ ---------------------------------------------------
+2022-09-30 15:46:37: case.run starting 63205180
+ ---------------------------------------------------
+2022-09-30 15:47:06: model execution starting 63205180
+ ---------------------------------------------------
+2022-09-30 16:31:05: model execution success 63205180
+ ---------------------------------------------------
+2022-09-30 16:31:05: case.run success 63205180
+ ---------------------------------------------------

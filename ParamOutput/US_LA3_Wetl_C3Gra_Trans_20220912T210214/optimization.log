@@ -1,0 +1,34 @@
+INFO 2022-09-12 21:02:14,524 - Start time: 20220912T210214
+WARNING 2022-09-12 21:05:19,406 - Exception encountered in set_trial_status. Traceback: Traceback (most recent call last):
+  File "/global/cscratch1/sd/yazbeck/boa/boa/metaclasses.py", line 19, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/boa/boa/wrapper_utils.py", line 52, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/elm_wrapper.py", line 429, in set_trial_status
+    lastfile_size = os.path.getsize(last_nc_filename)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/US_LA3_Wetl_C3Gra_Trans_opt_0/run/US_LA3_Wetl_C3Gra_Trans_opt_0.elm.h0.2012-11-30-00000.nc'
+
+WARNING 2022-09-12 21:05:19,415 - Exception encountered in set_trial_status. Traceback: Traceback (most recent call last):
+  File "/global/cscratch1/sd/yazbeck/boa/boa/metaclasses.py", line 19, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/boa/boa/wrapper_utils.py", line 52, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/elm_wrapper.py", line 429, in set_trial_status
+    lastfile_size = os.path.getsize(last_nc_filename)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/US_LA3_Wetl_C3Gra_Trans_opt_0/run/US_LA3_Wetl_C3Gra_Trans_opt_0.elm.h0.2012-11-30-00000.nc'
+
+WARNING 2022-09-12 21:05:19,415 - Exception encountered in set_trial_status. Traceback: Traceback (most recent call last):
+  File "/global/cscratch1/sd/yazbeck/boa/boa/metaclasses.py", line 19, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/boa/boa/wrapper_utils.py", line 52, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/elm_wrapper.py", line 429, in set_trial_status
+    lastfile_size = os.path.getsize(last_nc_filename)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/US_LA3_Wetl_C3Gra_Trans_opt_0/run/US_LA3_Wetl_C3Gra_Trans_opt_0.elm.h0.2012-11-30-00000.nc'
+

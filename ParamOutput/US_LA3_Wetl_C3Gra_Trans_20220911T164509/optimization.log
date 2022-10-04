@@ -1,0 +1,37 @@
+INFO 2022-09-11 16:45:09,747 - Start time: 20220911T164509
+WARNING 2022-09-11 16:45:24,484 - Exception encountered in fetch_trial_data. Traceback: Traceback (most recent call last):
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/ops/array_ops.py", line 163, in _na_arithmetic_op
+    result = func(left, right)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/computation/expressions.py", line 239, in evaluate
+    return _evaluate(op, op_str, a, b)  # type: ignore[misc]
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/computation/expressions.py", line 69, in _evaluate_standard
+    return op(a, b)
+TypeError: can't multiply sequence by non-int of type 'list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cscratch1/sd/yazbeck/boa/boa/metaclasses.py", line 19, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/boa/boa/wrapper_utils.py", line 52, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/elm_wrapper.py", line 428, in fetch_trial_data
+    y_pred, y_true = get_model_obs(
+  File "/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/elm_wrapper.py", line 271, in get_model_obs
+    modeldf["CH4_SURF_AERE_TOT"] = AllModelVar["CH4_SURF_AERE_SAT"]*AllModelVar["FINUNDATED"]+AllModelVar["CH4_SURF_AERE_UNSAT"]*(1-AllModelVar["FINUNDATED"])
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/ops/common.py", line 70, in new_method
+    return method(self, other)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/arraylike.py", line 116, in __mul__
+    return self._arith_method(other, operator.mul)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/series.py", line 5639, in _arith_method
+    return base.IndexOpsMixin._arith_method(self, other, op)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/base.py", line 1295, in _arith_method
+    result = ops.arithmetic_op(lvalues, rvalues, op)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/ops/array_ops.py", line 222, in arithmetic_op
+    res_values = _na_arithmetic_op(left, right, op)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/ops/array_ops.py", line 170, in _na_arithmetic_op
+    result = _masked_arith_op(left, right, op)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/ops/array_ops.py", line 108, in _masked_arith_op
+    result[mask] = op(xrav[mask], yrav[mask])
+TypeError: can't multiply sequence by non-int of type 'list'
+

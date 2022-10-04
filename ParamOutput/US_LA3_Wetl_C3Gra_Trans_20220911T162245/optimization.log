@@ -1,0 +1,33 @@
+INFO 2022-09-11 16:22:45,509 - Start time: 20220911T162245
+WARNING 2022-09-11 16:22:53,712 - Exception encountered in fetch_trial_data. Traceback: Traceback (most recent call last):
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/frame.py", line 3892, in _ensure_valid_index
+    value = Series(value)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/series.py", line 451, in __init__
+    data = sanitize_array(data, index, dtype, copy)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/construction.py", line 601, in sanitize_array
+    subarr = _sanitize_ndim(subarr, data, dtype, index, allow_2d=allow_2d)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/construction.py", line 652, in _sanitize_ndim
+    raise ValueError("Data must be 1-dimensional")
+ValueError: Data must be 1-dimensional
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/global/cscratch1/sd/yazbeck/boa/boa/metaclasses.py", line 19, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/boa/boa/wrapper_utils.py", line 52, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/elm_wrapper.py", line 432, in fetch_trial_data
+    y_pred, y_true = get_model_obs(
+  File "/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/elm_wrapper.py", line 269, in get_model_obs
+    AllModelVar[AllModVarName[v]] = modelVar
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/frame.py", line 3655, in __setitem__
+    self._set_item(key, value)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/frame.py", line 3832, in _set_item
+    value = self._sanitize_column(value)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/frame.py", line 4528, in _sanitize_column
+    self._ensure_valid_index(value)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/frame.py", line 3894, in _ensure_valid_index
+    raise ValueError(
+ValueError: Cannot set a frame with no defined index and a value that cannot be converted to a Series
+

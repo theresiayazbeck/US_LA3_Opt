@@ -1,0 +1,6 @@
+model_options:
+  create_case_dir: /global/u1/y/yazbeck/E3SM_code/cime/scripts/
+  run_dir: /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/
+  working_dir: /global/cscratch1/sd/yazbeck/
+parameters:
+  MeasAereResis: 8.32598525006324e-08

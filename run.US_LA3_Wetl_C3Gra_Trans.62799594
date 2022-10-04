@@ -1,0 +1,47 @@
+2022-09-14 13:05:11 CASE.RUN BEGINS HERE
+2022-09-14 13:05:11 RUN_MODEL BEGINS HERE
+2022-09-14 13:05:11 PRE_RUN_CHECK BEGINS HERE
+2022-09-14 13:05:17 NAMELIST CREATION BEGINS HERE
+Generating namelists for /global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans
+  2022-09-14 13:05:17 atm 
+Create namelist for component datm
+   Calling /global/u1/y/yazbeck/E3SM_code/components/data_comps/datm/cime_config/buildnml
+  2022-09-14 13:05:19 lnd 
+Create namelist for component elm
+   Calling /global/u1/y/yazbeck/E3SM_code/components/elm//cime_config/buildnml
+  2022-09-14 13:05:21 ice 
+Create namelist for component sice
+   Calling /global/u1/y/yazbeck/E3SM_code/components/stub_comps/sice/cime_config/buildnml
+  2022-09-14 13:05:21 ocn 
+Create namelist for component socn
+   Calling /global/u1/y/yazbeck/E3SM_code/components/stub_comps/socn/cime_config/buildnml
+  2022-09-14 13:05:21 rof 
+Create namelist for component mosart
+   Calling /global/u1/y/yazbeck/E3SM_code/components/mosart//cime_config/buildnml
+  2022-09-14 13:05:22 glc 
+Create namelist for component sglc
+   Calling /global/u1/y/yazbeck/E3SM_code/components/stub_comps/sglc/cime_config/buildnml
+  2022-09-14 13:05:22 wav 
+Create namelist for component swav
+   Calling /global/u1/y/yazbeck/E3SM_code/components/stub_comps/swav/cime_config/buildnml
+  2022-09-14 13:05:22 iac 
+Create namelist for component siac
+   Calling /global/u1/y/yazbeck/E3SM_code/components/stub_comps/siac/cime_config/buildnml
+  2022-09-14 13:05:22 esp 
+Create namelist for component sesp
+   Calling /global/u1/y/yazbeck/E3SM_code/components/stub_comps/sesp/cime_config/buildnml
+  2022-09-14 13:05:22 cpl 
+Create namelist for component drv
+   Calling /global/u1/y/yazbeck/E3SM_code/driver-mct/cime_config/buildnml
+2022-09-14 13:05:25 NAMELIST CREATION HAS FINISHED
+-------------------------------------------------------------------------
+ - Prestage required restarts into /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/US_LA3_Wetl_C3Gra_Trans/run
+ - Case input data directory (DIN_LOC_ROOT) is /global/cfs/cdirs/e3sm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+2022-09-14 13:05:25 PRE_RUN_CHECK HAS FINISHED
+run command is srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/US_LA3_Wetl_C3Gra_Trans/bld/e3sm.exe   >> e3sm.log.$LID 2>&1  
+2022-09-14 13:05:38 SAVE_PRERUN_PROVENANCE BEGINS HERE
+2022-09-14 13:05:57 SAVE_PRERUN_PROVENANCE HAS FINISHED
+2022-09-14 13:05:57 MODEL EXECUTION BEGINS HERE
+slurmstepd: error: *** JOB 62799594 ON nid12632 CANCELLED AT 2022-09-14T13:15:12 DUE TO TIME LIMIT ***

@@ -1,0 +1,12 @@
+stream_fldfilename_pdep = /global/cfs/cdirs/e3sm/inputdata/lnd/clm2/pdepdata/fpdep_clm_hist_simyr2000_1.9x2.5_c150929.nc
+fsnowoptics = /global/cfs/cdirs/e3sm/inputdata/lnd/clm2/snicardata/snicar_optics_5bnd_mam_c160322.nc
+finidat = /global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/ParamInput/US_LA3_Wetl_C3Gra_Trans.elm.r.2020-01-01-00000.nc
+fsnowaging = /global/cfs/cdirs/e3sm/inputdata/lnd/clm2/snicardata/snicar_drdt_bst_fit_60_c070416.nc
+fatmlndfrc = /global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data//domain_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc
+fsoilordercon = /global/cfs/cdirs/e3sm/inputdata/lnd/clm2/paramdata/CNP_parameters_c180312.nc
+fsurdat = /global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/surfdata_sparse_grids_US_LA3_Wetl_C3Gra_c220509.nc
+paramfile = /global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/ParamInput/clm_params.cbgc.c07292018.nc
+stream_fldfilename_popdens = /global/cfs/cdirs/e3sm/inputdata/lnd/clm2/firedata/clmforc.Li_2012_hdm_0.5x0.5_AVHRR_simyr1850-2010_c130401.nc
+stream_fldfilename_lightng = /global/cfs/cdirs/e3sm/inputdata/atm/datm7/NASA_LIS/clmforc.Li_2012_climo1995-2011.T62.lnfm_Total_c140423.nc
+flanduse_timeseries = 
+stream_fldfilename_ndep = /global/cfs/cdirs/e3sm/inputdata/lnd/clm2/ndepdata/fndep_clm_hist_simyr1849-2006_1.9x2.5_c100428.nc

@@ -1,0 +1,42 @@
+optimization_options:
+  objective_options:
+    objectives:
+      - name: rmse
+        boa_metric: RootMeanSquaredError
+    outcome_constraints: []
+  scheduler:
+    total_trials: 60
+  experiment:
+    name: 'US_LA3_Wetl_C3Gra_Trans'
+    start_year: 2012
+    start_month: 1
+    end_year: 2012
+    end_month: 11
+    model_var: ['NEE']
+    obs_var: 'NEE_PI_F'
+    obs2mod_unit_conv: 1
+  output_dir: '/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/ParamOutput/'
+  input_dir: '/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/ParamInput/'
+  obsfile: '/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/ParamInput/ECData.csv'
+  config_file:
+    name: 'US_LA3_Wetl_C3Gra_Trans_optimization_config.yml'
+  generation_strategy:
+    steps:
+      - model: SOBOL
+        num_trials: 5
+        min_trials_observed: 5
+      - model: GPEI
+        num_trials: -1
+        max_parallelism: 10
+
+model_options:
+  create_case_dir: '/global/u1/y/yazbeck/E3SM_code/cime/scripts/'
+  working_dir: '/global/cscratch1/sd/yazbeck/'
+  run_dir: '/global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/'
+
+parameters:
+  vcmax_np1:
+    type: range
+    bounds: [2.0,6.0]
+    value_type: float
+    

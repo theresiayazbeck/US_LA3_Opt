@@ -1,0 +1,4 @@
+INFO 2022-09-18 16:59:05,659 - Start time: 20220918T165905
+INFO 2022-09-19 09:13:59,922 - 
+Trials completed! Total run time: 58494
+INFO 2022-09-19 09:13:59,997 - Saved JSON-serialized state of optimization to `/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/ParamOutput/US_LA3_Wetl_C3Gra_Trans_20220918T165905/scheduler.json`.

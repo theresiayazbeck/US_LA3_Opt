@@ -1,0 +1,27 @@
+INFO 2022-09-12 15:42:48,473 - Start time: 20220912T154248
+WARNING 2022-09-12 16:21:24,329 - Exception encountered in fetch_trial_data. Traceback: Traceback (most recent call last):
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'FCH4_gf'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/global/cscratch1/sd/yazbeck/boa/boa/metaclasses.py", line 19, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/boa/boa/wrapper_utils.py", line 52, in wrapper
+    return func(*args, **kwargs)
+  File "/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/elm_wrapper.py", line 433, in fetch_trial_data
+    y_pred, y_true = get_model_obs(
+  File "/global/cscratch1/sd/yazbeck/US_LA3_Wetl_C3Gra_Trans/elm_wrapper.py", line 291, in get_model_obs
+    obsdf[ObsVarName] = obsdf[ObsVarName]*UnitConv
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/global/homes/y/yazbeck/.conda/envs/boa_env_cori/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'FCH4_gf'
+
